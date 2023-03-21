@@ -23,35 +23,27 @@ function CalcularHipotenusa(a,b){
 let resultado= Calcular(5,9);
 console.log("El area del rectangulo es: "+resultado[0]);  
 let resultadohipo=CalcularHipotenusa(10,20);
+console.log("La hipotenusa es: "+resultadohipo);
 
 ///////////////////////////////////////////////////////////////////
 //Suma,resta,división y multiplicacion de dos números
 
 
-function suma (a,b){
-    return a+b;
-}
-function resta(a,b){
-    return a-b;
-}
-function multiplicacion(a,b)
-{
-    return a*b;
-}
-function division(a,b)
-{
-    return a/b;
+function calculadora (a,b){
+    document.writeln(a+b);
+    document.writeln(a-b);
+    document.writeln(a*b);
+    document.writeln(a/b);
+
+    console.log(a+b);
+    console.warn(a-b);
+    console.error(a*b);
+    console.info(a/b);
 }
 
-let resultadoSuma=suma(2,3);
-let resultadoResta=resta(10,5);
-let resultadoMultiplicacion=multiplicacion(10,9);
-let resultadoDivision=division(30,5);
 
-console.log("Resultado suma: "+resultadoSuma);
-console.log("Resultado resta: "+resultadoResta);
-console.log("Resultado multiplicacion: "+resultadoMultiplicacion);
-console.log("Resultado división: "+resultadoDivision);
+calculadora(2,3);
+
 
 /////////////////////////////////////////////////////////////////////////
 //Media de 3 números
