@@ -47,16 +47,9 @@ calculadora(2,3);
 
 /////////////////////////////////////////////////////////////////////////
 //Media de 3 números
-let numero1,numero2,numero3;
-
-
-numero1=prompt("Digite el primer número");
-
-numero2=prompt("Digite el segundo número");
-
-numero3=prompt("Digite el tercer número");
-
-let media=(numero1+numero2+numero3)/3;
+function media(){
+    console.log("existo");
+}
 
 
 ///////////////////////////////////////////////////////////////////
