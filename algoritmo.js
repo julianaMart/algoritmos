@@ -48,29 +48,20 @@ calculadora(2,3);
 /////////////////////////////////////////////////////////////////////////
 //Media de 3 números
 function media(){
-    console.log("existo");
+
+    let x=document.parseInt(getElementById('x').value);
+    let y=document.parseInt(getElementById('y').value);
+    let z=document.parseInt(getElementById('z').value);
+    
+    //Cast
+    
+    let promedio=(x+y+z)/3
+    
+    return promedio;
 }
 
 
-///////////////////////////////////////////////////////////////////
-//Promedio calificaciones
-var parcial1,  parcial2,parcial3,examenfinal,trabajofinal;
 
-parcial1=prompt("Nota primer parcial");
-
-parcial2=prompt("Nota segundo parcial");
-
-parcial3=prompt("Nota tercer parcial");
-
-examenfinal=prompt("Nota examen final");
-
-trabajofinal=prompt("Nota trabajo final");
-
-var notaparcial=(parcial1+parcial2+parcial3)/3;
-
-var notafinal=(notaparcial*0,55)+(examenfinal*0,3)+(trabajofinal*0,15);
-
-console.log("nota final "+notafinal);
 
 ///////////////////////////////////////////////////////////////7
 //Tiempo
